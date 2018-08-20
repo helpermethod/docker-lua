@@ -6,7 +6,7 @@ RUN apk --no-cache add --virtual build-dependencies \
     gcc \
     libc-dev \
     make \
-    readline-dev \
+ && apk --no-cache add readline-dev \
  && wget http://www.lua.org/ftp/lua-${LUA_VERSION}.tar.gz \
  && tar xvf lua-${LUA_VERSION}.tar.gz \
  && cd lua-$LUA_VERSION \
