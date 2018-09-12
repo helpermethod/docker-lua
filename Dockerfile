@@ -18,5 +18,11 @@ RUN apk --no-cache add --virtual build-dependencies \
  && make linux \
  && make install \
  && cd .. \
- && rm -rf lua.tar.gz lua-$VERSION \
- && apk del build-dependencies
+ && rm -rf lua.tar.gz lua-$LUA_VERSION \
+ && apk del build-dependencies \
+ && printf 'Adding lua user and group\n' \
+ && addgroup -g 1000 -S lua \
+ && adduser -u 1000 -G lua -S lua
+
+USER lua
+WORKDIR /home/lua
