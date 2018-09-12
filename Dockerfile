@@ -3,7 +3,8 @@ FROM alpine:3.8
 ARG LUA_VERSION=5.3.5
 ARG LUA_DOWNLOAD_SHA256=0c2eed3f960446e1a3e4b9a1ca2f3ff893b6ce41942cf54d5dd59ab4b3b058ac
 
-RUN apk --no-cache add --virtual build-dependencies \
+RUN set -o errexit -o nounset \
+    apk --no-cache add --virtual build-dependencies \
     gcc \
     libc-dev \
     make \
