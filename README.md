@@ -11,6 +11,6 @@ from hub.docker.com.
 # run the latest version
 $ docker run -it helpermethod/docker-lua sh
 # run a specific version
-$ docker run -it helpermethod/docker-lua:0.3.0
+$ docker run -it helpermethod/docker-lua:0.3.0 sh
 ```
 
