@@ -10,7 +10,7 @@ from hub.docker.com.
 ```sh
 # run the latest version
 $ docker run -it helpermethod/docker-lua sh
-# or run a specific version
+# run a specific version
 $ docker run -it helpermethod/docker-lua:0.3.0
 ```
 
