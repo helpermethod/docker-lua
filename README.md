@@ -10,8 +10,7 @@ A minimal Docker image for running Lua applications.
 
 ## Usage
 
-The easiest way to get started is running one of the [prebuilt images](https://hub.docker.com/r/helpermethod/docker-lua/tags/)
-from https://hub.docker.com.
+## Running a prebuilt image
 
 ```sh
 # run the latest version
@@ -20,3 +19,8 @@ $ docker run -it helpermethod/docker-lua sh
 $ docker run -it helpermethod/docker-lua:0.4.0 sh
 ```
 
+## Using docker-lua as a base image
+
+```dockerfile
+FROM helpermethod/docker-lua:0.4.0
+```
