@@ -1,5 +1,7 @@
 # docker-lua
 
+[![](https://images.microbadger.com/badges/image/helpermethod/docker-lua:0.4.0.svg)](https://microbadger.com/images/helpermethod/docker-lua:0.4.0 "Get your own image badge on microbadger.com")
+
 A minimal Docker image for running Lua applications.
 
 ## Features
