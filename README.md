@@ -7,7 +7,6 @@ A minimal Docker image for running Lua applications.
 * based on [Alpine Linux](https://hub.docker.com/_/alpine)
 * contains the minimum set of dependencies for running Lua-only applications
 * runs as non-root user by default
-* suitable for deploying Lua applications or to be used as a base image
 
 ## Usage
 
