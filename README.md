@@ -1,12 +1,12 @@
 # docker-lua
 
-A minimal Docker image for running Lua applications.
+A Docker image for running Lua applications.
 
 ## Features
 
 * based on [Alpine Linux](https://hub.docker.com/_/alpine)
-* contains the minimum set of dependencies for running Lua-only applications
 * runs as non-root user by default
+* suitable to be used as a based image
 
 ## Usage
 
@@ -23,4 +23,12 @@ $ docker run -it helpermethod/docker-lua:0.4.0 sh
 
 ```dockerfile
 FROM helpermethod/docker-lua:0.4.0
+
+USER ROOT
+WORKDIR /
+
+# add your own instructions here
+
+USER lua
+WORKDIR lua
 ```
