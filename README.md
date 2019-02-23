@@ -2,6 +2,8 @@
 
 A Docker image for running Lua applications.
 
+[![](https://images.microbadger.com/badges/image/helpermethod/docker-lua.svg)](https://microbadger.com/images/helpermethod/docker-lua "Get your own image badge on microbadger.com")
+
 ## Features
 
 * based on [Alpine Linux](https://hub.docker.com/_/alpine)
