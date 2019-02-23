@@ -2,8 +2,8 @@
 
 A Docker image for running Lua applications.
 
+[![](https://images.microbadger.com/badges/version/helpermethod/docker-lua:0.4.0.svg)](https://microbadger.com/images/helpermethod/docker-lua:0.4.0 "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/helpermethod/docker-lua.svg)](https://microbadger.com/images/helpermethod/docker-lua "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/helpermethod/docker-lua.svg)](https://microbadger.com/images/helpermethod/docker-lua "Get your own version badge on microbadger.com")
 
 ## Features
 
