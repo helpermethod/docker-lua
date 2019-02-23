@@ -3,9 +3,7 @@
 A Docker image for running Lua applications.
 
 ![Docker Automated build](https://img.shields.io/docker/automated/helpermethod/docker-lua.svg)
-![MicroBadger Size (tag)](https://img.shields.io/microbadger/image-size/helpermethod/docker-lua/0.4.0.svg)
-
-[![](https://images.microbadger.com/badges/image/helpermethod/docker-lua.svg)](https://microbadger.com/images/helpermethod/docker-lua "Get your own image badge on microbadger.com")
+![MicroBadger Size (tag)](https://microbadger.com/images/helpermethod/docker-lua "Get your own image badge on microbadger.com")
 
 ## Features
 
