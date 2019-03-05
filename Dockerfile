@@ -10,7 +10,7 @@ RUN set -o errexit -o nounset \
     make \
  && apk --no-cache add readline-dev \
  && printf 'Downloading Lua\n' \
- && wget -O lua.tar.gz https://www.lua.org/ftp/lua-${LUA_VERSION}.tar.gz \
+ && wget --no-verbose -O lua.tar.gz https://www.lua.org/ftp/lua-${LUA_VERSION}.tar.gz \
  && printf 'Checking download hash\n' \
  && printf '%s  lua.tar.gz\n' "$LUA_DOWNLOAD_SHA256" | sha256sum -c - \
  && printf 'Installing Lua\n' \
