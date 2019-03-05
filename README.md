@@ -18,9 +18,9 @@ A Docker image for running [Lua](https://www.lua.org/) applications.
 ## Running a prebuilt image
 
 ```sh
-# run the latest version
+# run latest version
 $ docker run -it helpermethod/docker-lua sh
-# run a specific version
+# run specific version
 $ docker run -it helpermethod/docker-lua:0.4.0 sh
 ```
 
